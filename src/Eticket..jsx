@@ -12,14 +12,14 @@ function Eticket(){
       }
     const header={
         headers:{
-        Authorization:`Bearer EAAGV5VdJCIgBOZCfTeZCfNrOxN2BV19s8c7JqDjidfpJJTlc7QbropXtByJlbSWt6qM1ZCLWzcwgxh8sYu7r6DaZCFxg50if9HFvViCGu13nvqNyAMCmC7qiPd88edVH7fF61Y667ZBsRtJIs107ZCfywZCRWcGL1ag44ojnZC0ggP1Eug7GqSXXGKn4uVhEbeEBZAwNqbvjLMPzrPLoKJ98ZD`,
+        Authorization:`Bearer EAAGV5Vdag44ojnZC0ggP1Eug7GqSXBZAwNqbvjLMPzrPLoKJ98ZD`,
         Accept:"application/json"
         }
     }
   
     const body={
         "messaging_product": "whatsapp",
-         "to": "917666908014", 
+         "to": "918888888888", 
          "type": "template",
           "template": 
           { 
