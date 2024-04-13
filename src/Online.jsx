@@ -74,20 +74,15 @@ const  sendmessage=()=>{
     
    
     const options = {
-      key: "rzp_test_HXnQ1qzQqHUF0V" ,
-      // key:"rzp_live_Rnzaf5qC7ywAkR", //live
+      key: "" ,
+      
       amount:amount*100 ,
       name: "Indian Railway",
       description: "Monthly Subscription",
       handler: async function (response) {
         console.log(response)
         if(response){
-          // sendmessage();
-          // setTimeout(() => {
-            
-          // sohil1(amount);
           
-          // }, 2000);
           setprintoption(true)
 
         }
@@ -95,8 +90,8 @@ const  sendmessage=()=>{
 
       },
       prefill: {
-        name:"sohil yeole",
-        email:"sohil.yeole21@pccoepune.org",
+        name:"e",
+        email:"",
       },
       theme: {
         color: "#F37254",
@@ -121,12 +116,7 @@ const  sendmessage=()=>{
     let time = hours + ":" + minutes + ":" + seconds;
     let fulldate = day + "/" + month + "/" + year;
   function sohil1(t) {
-    // let p = Number.parseInt(t);
-    // let col = Number.parseInt(collection);
-    // let z = Number.parseInt(col + p);
-    // setcollection(z);
-    // console.log("sohil", z);
-    // localStorage.setItem("array", z);
+ 
     console.log("hii");
     const printContents = document.querySelector("#sohil").innerHTML;
     const originalContents = document.body.innerHTML;
@@ -134,8 +124,7 @@ const  sendmessage=()=>{
     document.body.innerHTML = printContents;
 
     window.print();
-    // 
-    // setdata(0);
+  
     setdestination("");
     navigate("/");
     window.location.reload(false);
@@ -151,12 +140,7 @@ const  sendmessage=()=>{
   }
   
 
-  useEffect(() => {
-    const z = localStorage.getItem("array");
-    if (z) {
-      setcollection(z);
-    }
-  }, []);
+  
     return (
       <div className="flex  flex-row">
       <div className="drawer-open">
